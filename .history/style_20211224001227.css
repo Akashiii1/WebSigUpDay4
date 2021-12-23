@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;600;700&display=swap');
+:root{
+  --Blue: hsl(223, 87%, 63%);
+--PaleBlue: hsl(223, 100%, 88%);
+--LightRed: hsl(354, 100%, 66%);
+ --Gray: hsl(0, 0%, 59%);
+ --VeryDarkBlue: hsl(209, 33%, 12%);
+}
+
+html {
+box-sizing: border-box;
+font-family: 'Libre Franklin', sans-serif;
+}
+*{
+margin: 0;
+padding: 0;
+}
+*,*:before,*:after {
+box-sizing: border-box;
+}
+input,
+textarea,
+select,
+button{
+outline: none;
+}
+input{
+line-height: normal;
+}
+label,
+button{
+cursor: pointer;
+}
+a {
+text-decoration: none;
+}
+img {
+display: block;
+max-width: 100%;
+}
+.wrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #FF6651;
+  padding: 160px 90px;
+}
+.container{
+  background-color: #fff;
+  max-width: 1024px;
+}
+.logo{
+  padding: 60px;
+}
+.logo img{
+  margin:  0 auto;
+}
+.title{
+  text-align: center;
+  font-weight: 300;
+  color: var(--Gray);
+  
+}
+.bold{
+  font-weight: 700;
+  color: var(--VeryDarkBlue);
+}
+.descript{
+  text-align: center;
+  padding: 15px 20px;
+  color: var(--Gray);
+}
+.form-control{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin:  0 auto;
+}
